@@ -2,7 +2,10 @@
   "name": "@johnmbergman/rock-paper-scissors",
   "version": "1.0.0",
   "description": "A command-line game of Rock Paper Scissors",
-  "main": "index.js",
+  "main": "bin/rock-paper-scissors.js",
+  "bin": {
+    "rock-paper-scissors": "./bin/rock-paper-scissors.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
